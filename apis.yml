@@ -1,8 +1,16 @@
 aid: dehaat
 name: DeHaat
-description: 'DeHaat is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: agtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'DeHaat (Green Agrevolution Private Limited) is one of India''s largest full-stack
+  agritech platforms, connecting smallholder farmers from "seed to market" through a phygital network
+  of 11,000+ DeHaat Centres and 503 Farmer Producer Organisations across 12+ agrarian states. Founded
+  in 2012 by IIT/IIM alumni, the platform serves 1.8 million+ farmers with agri-inputs (seeds,
+  fertilizers, crop protection), AI-enabled crop advisory in multiple regional languages for 30+ crops,
+  soil analysis, crop-health monitoring, market linkage for harvested produce, and agri-financing.
+  Backed by Prosus Ventures and others, DeHaat operates a franchisee micro-entrepreneur model that
+  raises farmer net incomes 30-50% while making procurement more predictable for buyers. This profile
+  was surfaced as a portfolio company of prosus-ventures; the company publishes no public developer
+  API portal or OpenAPI at this time, so enrichment is limited to identity, corporate link-properties,
+  and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/dehaat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://agrevolution.in/assets/images/favicon.png
 tags:
 - Company
 - Agtech
+- Agriculture
+- Marketplace
+- Rural
+- Supply Chain
+- India
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://agrevolution.in
+- type: Company
+  url: https://agrevolution.in/company
+- type: Support
+  url: https://agrevolution.in/contact-us
+- type: Blog
+  url: https://write.agrevolution.in/tagged/engineering
+- type: GitHubOrganization
+  url: https://github.com/Dehaat
+- type: TermsOfService
+  url: https://policies.agrevolution.in/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://policies.agrevolution.in/privacy-policy/
+- type: DomainSecurity
+  url: security/dehaat-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/dehaat-vulnerability-disclosure.yml
+- type: Security
+  url: https://agrevolution.in/responsible-disclosure
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
